@@ -37,6 +37,9 @@ class BST:
 				return True
 		return False		
 
+
+	#Average: O(log(n)) time | O(1) space
+	#Worst: O(n) time | O(1) space
 	def delete(self,value,parentNode = None):
 		currentNode = self
 		while currentNode is not None:
