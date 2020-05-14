@@ -26,7 +26,7 @@ class BST:
 				
 	#Average: O(log(n)) time | O(1) space
 	#Worst: O(n) time | O(1) space
-	def search(self,value):
+	def search(self, value):
 		currentNode = self
 		while currentNode is not None:
 			if value < currentNode.value:
