@@ -40,7 +40,7 @@ class BST:
 
 	#Average: O(log(n)) time | O(1) space
 	#Worst: O(n) time | O(1) space
-	def delete(self,value,parentNode = None):
+	def delete(self, value, parentNode = None):
 		currentNode = self
 		while currentNode is not None:
 			if value < currentNode.value:
