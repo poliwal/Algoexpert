@@ -7,7 +7,6 @@ def zigzagTraverse(array):
 	goingDown = True
 	while not isOutOfBounds(row, col, height, width):
 		result.append(array[row][col])
-
 		if goingDown:
 			if row == height or col == 0:
 				goingDown = False
