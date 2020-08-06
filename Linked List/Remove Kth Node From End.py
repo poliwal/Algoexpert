@@ -14,21 +14,22 @@ def removeKthFromEnd(head, k):
 		first = first.next
 	first.next = first.next.next
 
+
 class Node: 
-    def __init__(self, data): 
-        self.data = data
-        self.next = None
+	def __init__(self, data): 
+		self.data = data
+		self.next = None
    
 class LinkedList: 
-    def __init__(self):  
-        self.head = None
+	def __init__(self):  
+		self.head = None
 
-    def printList(self): 
-        temp = self.head 
-        while (temp): 
-            print (temp.data,end='\t') 
-            temp = temp.next
-        print("")
+	def printList(self): 
+		temp = self.head 
+		while (temp): 
+			print (temp.data,end='\t') 
+			temp = temp.next
+		print("")
 
 first = Node(1)
 second = Node(2)
