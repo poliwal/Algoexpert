@@ -3,9 +3,9 @@ class BST:
 		self.value = value
 		self.left = None
 		self.right = None
-
-	#Average: O(log(n)) time | O(1) space
-	#Worst: O(n) time | O(1) space
+ 
+	# Average: O(log(n)) time | O(1) space
+	# Worst: O(n) time | O(1) space
 	def insert(self, value):
 		currentNode = self
 		while True:
@@ -24,8 +24,8 @@ class BST:
 		return self 						#So we can call insert in a chain (Something.insert(10).insert(12)....)
 
 				
-	#Average: O(log(n)) time | O(1) space
-	#Worst: O(n) time | O(1) space
+	# Average: O(log(n)) time | O(1) space
+	# Worst: O(n) time | O(1) space
 	def search(self, value):
 		currentNode = self
 		while currentNode is not None:
@@ -38,8 +38,8 @@ class BST:
 		return False		
 
 
-	#Average: O(log(n)) time | O(1) space
-	#Worst: O(n) time | O(1) space
+	# Average: O(log(n)) time | O(1) space
+	# Worst: O(n) time | O(1) space
 	def delete(self, value, parentNode = None):
 		currentNode = self
 		while currentNode is not None:
