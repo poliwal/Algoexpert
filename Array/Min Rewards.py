@@ -54,7 +54,7 @@ def expandFromLocalMinIndex(localMinIndex, scores, rewards):
 
 
 
-####################### Method 2 ###########################
+####################### Method 3 ###########################
 # O(n) time | O(n) space
 def minRewards(scores):
 	rewards = [1 for _ in scores]
