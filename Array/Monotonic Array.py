@@ -17,7 +17,7 @@ def isMonotonicArray1(array):
 ############################## Method-2 #################################
 # O(n) time | O(1) space
 def isMonotonicArray2(array):
-	if len(array)>=2:
+	if len(array)<=2:
 		return True
 
 	direction = array[1] - array[0]
